@@ -6,7 +6,10 @@
             "email": "a.0066715@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "monolog/monolog": "^2.3",
+        "nesbot/carbon": "^2.53"
+    },
     "autoload": {
     "psr-4": {
               "Demo\\": "./src/Demo"
